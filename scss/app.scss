@@ -1,6 +1,7 @@
 @import "settings";
 @import "foundation";
 
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
@@ -8,7 +9,7 @@
 //   "foundation/components/block-grid",
 //   "foundation/components/breadcrumbs",
 //   "foundation/components/button-groups",
-//   "foundation/components/buttons",
+@import "foundation/components/buttons";
 //   "foundation/components/clearing",
 //   "foundation/components/dropdown",
 //   "foundation/components/dropdown-buttons",
@@ -34,7 +35,8 @@
 //   "foundation/components/tabs",
 //   "foundation/components/thumbs",
 //   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
+// @import "foundation/components/t op-bar";
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+@import "styles";
