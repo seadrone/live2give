@@ -3,6 +3,7 @@
 
 body {
   font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
+  color: $body-font-color;
 }
 
 a {
@@ -30,6 +31,11 @@ a {
   background-color: #fff;
 }
 
+.nav-main__links {
+  color: $link-color!important;
+  text-transform: uppercase;
+}
+
 .hero {
   background: url(../img/hero-bg.png) no-repeat;
   background-position: 50% 50%;
@@ -39,6 +45,10 @@ a {
   color: #fff;
   h1 {
     color: #fff;
+    text-shadow: 1px 1px 8px #000;
+  }
+  span {
+    text-shadow: 1px 1px 4px #000;
   }
 }
 
@@ -71,14 +81,22 @@ a {
   }
 }
 
+.footer--out {
+  border-top: 1px solid #d4d4d4;
+   background-image: linear-gradient(-180deg, rgba(230,230,230,0.2) 0%, rgba(255,255,255,0.4) 7%, rgba(247,247,247,0.8) 94%, #EAEAEA 100%);
+}
+
+.org {
+  @extend .muted;
+  transition: opacity .5s;
+  &:hover {
+    opacity: 1;
+  }
+}
 
 
-
-
-
-
-
-
+// opacity:0.5!important;
+//     filter:alpha(opacity = 50)!important;
 
 
 
