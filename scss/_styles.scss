@@ -86,17 +86,40 @@ a {
    background-image: linear-gradient(-180deg, rgba(230,230,230,0.2) 0%, rgba(255,255,255,0.4) 7%, rgba(247,247,247,0.8) 94%, #EAEAEA 100%);
 }
 
+.divider {
+  border-top: 1px solid $color-border;
+  background-image: linear-gradient(-180deg, rgba(230,230,230,0.2) 0%, rgba(255,255,255,0.4) 7%);
+}
+
 .org {
-  @extend .muted;
-  transition: opacity .5s;
+  opacity: .5;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   &:hover {
     opacity: 1;
   }
 }
 
+.explore {
+  background-color: #f8f8f8;
+}
+.explore-row {
+  padding-top: $padding*5;
+}
 
-// opacity:0.5!important;
-//     filter:alpha(opacity = 50)!important;
+.donor-grid {
+  ul {
+    @extend .milli;
+  }
+}
+
+
 
 
 
