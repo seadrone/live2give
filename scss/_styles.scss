@@ -119,8 +119,68 @@ a {
   }
 }
 
+.overflow {
+  overflow: hidden;
+}
 
+.detail--image {
+  height: 250px;
+  width: 600px;
+  overflow: hidden;
+  border: 6px solid #fff;
+  box-shadow: 1px 1px 4px 2px rgba(0,0,0,.15);
+}
 
+.default--image {
+  border: 6px solid #fff!important;
+  box-shadow: 1px 1px 4px 2px rgba(0,0,0,.15)!important;
+}
+
+.expense--legend { 
+  position: relative;
+  top: -95px;
+  margin-bottom: $padding;
+}
+.legend--title {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.expense {
+  position: relative;
+  top: -145px;
+  @extend .alpha;
+  span {
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+}
+
+.color--program {
+  text-align: left;
+  width: 25px;
+  height: 25px;
+  background-color: $color-programs;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.color--expense {
+ text-align: left;
+  width: 25px;
+  height: 25px;
+  background-color: $color-expenses;
+  display: inline-block;
+  vertical-align: bottom; 
+}
+
+// MIXITUP STUFF HERE
+#Container .mix{
+  display: none;
+}
 
 
 
