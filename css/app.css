@@ -5461,7 +5461,7 @@ td {
 .btn--medium {
   padding-right: 1em;
   padding-left: 1em;
-  line-height: 3; }
+  line-height: 2; }
 
 .btn--large {
   padding-right: 2em;
@@ -5498,6 +5498,26 @@ td {
   color: #fff;
   margin-bottom: 0.5em;
   width: 55%; }
+
+.btn--filter {
+  background-color: #fff;
+  color: #96a1ab;
+  border-bottom: 1px solid #90cde2; }
+  .btn--filter:hover {
+    color: #329cc1;
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
+
+.filter.active {
+  background-color: #329cc1;
+  border-bottom: 1px solid #90cde2;
+  color: #fff; }
 
 .cf:after, .media:after, .overview:after, .profile:after {
   content: "";
@@ -5974,6 +5994,9 @@ h6,
 .squish {
   margin-bottom: 0.06667em; }
 
+.marg-top {
+  margin-top: 1em; }
+
 .nav {
   vertical-align: middle;
   line-height: 1.5;
@@ -6151,7 +6174,7 @@ a {
   background-color: #f8f8f8; }
 
 .explore-row {
-  padding-top: 5em; }
+  padding-top: 1em; }
 
 .overflow {
   overflow: hidden; }
