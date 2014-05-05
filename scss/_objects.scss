@@ -84,6 +84,10 @@
     font-size:1.25rem;
 }
 
+.btn--signup {
+  line-height: .25;
+}
+
 .btn--signup-modal {
   color:#fff;
   margin-bottom: $padding/2;
@@ -208,7 +212,7 @@
     @extend .epsilon;
     line-height: 1!important;
     margin: 0 0 $padding/4 0;
-    color: darken($body-font-color, 20%);
+    color: $link-color;
   }
   h3 {
     @extend .smallprint;
@@ -274,6 +278,13 @@
   margin-top: -($padding*.25);
   font-size: 24px;
 }
+
+.cat-camp {
+  border-top: 10px solid $color-camp;
+}
+.cat-org {
+  border-top: 10px solid $color-org;
+}
 // ============================================== FRAME
 
 .circle {
@@ -302,10 +313,7 @@
 
 
 
-h1, h2, h3, h4, h5, h6 { 
-  font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
-  color: lighten($heading-color, .9);
-}
+
 h1,
 .alpha {
     @include font-size($typecsset-h1-size);

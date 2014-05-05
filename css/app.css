@@ -41,10 +41,10 @@ body {
 
 body {
   background: white;
-  color: #222222;
+  color: #96a1ab;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1097,7 +1097,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
       font-size: 1rem; }
       .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1517,7 +1517,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2770,7 +2770,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3198,7 +3198,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif; }
   .pricing-table .price {
     background-color: #f6f6f6;
     padding: 0.9375rem 1.25rem;
@@ -3206,7 +3206,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+    font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif; }
   .pricing-table .description {
     background-color: white;
     padding: 0.9375rem;
@@ -3437,7 +3437,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem; }
@@ -3449,7 +3449,7 @@ dialog[open] {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+      font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -3552,7 +3552,7 @@ dialog[open] {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -3764,7 +3764,7 @@ table {
       background: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover {
         background: #e1e1e1; }
@@ -3979,7 +3979,7 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
-        color: white;
+        color: #329cc1;
         width: 75%;
         display: block;
         padding: 0 23.33333px; }
@@ -3988,7 +3988,7 @@ meta.foundation-mq-topbar {
     right: 0;
     top: 0; }
     .top-bar .toggle-topbar a {
-      color: white;
+      color: #329cc1;
       text-transform: uppercase;
       font-size: 0.8125rem;
       font-weight: bold;
@@ -4049,10 +4049,10 @@ meta.foundation-mq-topbar {
   .top-bar-section ul li > a {
     display: block;
     width: 100%;
-    color: white;
+    color: #329cc1;
     padding: 12px 0 12px 0;
     padding-left: 23.33333px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none;
@@ -4128,7 +4128,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #272727;
+    background: #329cc1;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #008cba;
@@ -4188,7 +4188,7 @@ meta.foundation-mq-topbar {
       .top-bar-section .dropdown li.title h5 {
         margin-bottom: 0; }
         .top-bar-section .dropdown li.title h5 a {
-          color: white;
+          color: #329cc1;
           line-height: 35px;
           display: block; }
       .top-bar-section .dropdown li.has-form {
@@ -4247,14 +4247,14 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #272727;
+      background: #329cc1;
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 23.33333px;
       line-height: 70px;
       background: white; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #272727; }
+        background: #329cc1; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 23.33333px;
       line-height: 70px;
@@ -4314,7 +4314,7 @@ meta.foundation-mq-topbar {
         background: white; }
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: white;
-        background: #272727; }
+        background: #329cc1; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: white; }
@@ -4344,7 +4344,7 @@ meta.foundation-mq-topbar {
         left: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #329cc1;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #008cba;
@@ -4540,7 +4540,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -4664,7 +4664,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #96a1ab;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -5491,6 +5491,9 @@ td {
 .btn--gamma {
   font-size: 1.25rem; }
 
+.btn--signup {
+  line-height: .25; }
+
 .btn--signup-modal {
   color: #fff;
   margin-bottom: 0.5em;
@@ -5586,7 +5589,7 @@ td {
 .overview__title h2 {
   line-height: 1 !important;
   margin: 0 0 0.25em 0;
-  color: #616e7a; }
+  color: #329cc1; }
 .overview__title h3 {
   line-height: 1.25 !important;
   color: #96a1ab; }
@@ -5637,6 +5640,12 @@ td {
   margin-top: -0.25em;
   font-size: 24px; }
 
+.cat-camp {
+  border-top: 10px solid #d4cd61; }
+
+.cat-org {
+  border-top: 10px solid #ff7596; }
+
 .circle {
   background-color: #71bb97;
   border-radius: 100%;
@@ -5646,10 +5655,6 @@ td {
 
 .fit {
   width: 100%; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
-  color: #696f74; }
 
 h1,
 .alpha,
@@ -6074,10 +6079,6 @@ a {
 .nav-main {
   height: 70px;
   background-color: #fff; }
-
-.nav-main__links {
-  color: #329cc1 !important;
-  text-transform: uppercase; }
 
 .hero {
   background: url(../img/hero-bg.png) no-repeat;

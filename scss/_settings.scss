@@ -11,6 +11,7 @@
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 @import "foundation/functions";
+@import "vars";
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
@@ -1206,6 +1207,13 @@ $reveal-overlay-bg: rgba(#000, .75);
 // $topbar-link-bg-hover: #272727;
 // $topbar-link-bg-active: $primary-color;
 // $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
+
+$topbar-link-bg-hover: $link-color;
+$topbar-link-color-hover: #fff;
+$topbar-link-color: $link-color;
+
+
+
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
 // $topbar-link-padding: $topbar-height / 3;
