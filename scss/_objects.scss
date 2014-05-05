@@ -84,6 +84,13 @@
     font-size:1.25rem;
 }
 
+.btn--signup-modal {
+  color:#fff;
+  margin-bottom: $padding/2;
+  width: 55%;
+}
+
+
 // ============================================== MEDIA OBJECT
 
 .cf{
@@ -179,7 +186,6 @@
       line-height: 1.25;
       span {
         color: darken($body-font-color, 25%);
-        @extend .zeta;
        }
     }
   }
@@ -202,7 +208,7 @@
     @extend .epsilon;
     line-height: 1!important;
     margin: 0 0 $padding/4 0;
-    color: darken($body-font-color, 35%);
+    color: darken($body-font-color, 20%);
   }
   h3 {
     @extend .smallprint;
@@ -221,7 +227,10 @@
   width: 26%;
   margin-right: $padding/2;
 }
-
+.overview__picture {
+  width: 400px;
+  height: 170px;
+}
 .overview__content {
   @extend .smallprint;
   line-height: 1.25!important;
@@ -263,6 +272,7 @@
 
 .foo { 
   margin-top: -($padding*.25);
+  font-size: 24px;
 }
 // ============================================== FRAME
 
@@ -293,8 +303,8 @@
 
 
 h1, h2, h3, h4, h5, h6 { 
-  font-family: RooneyWeb-Regular, avenir, helvetica, sans-serif;
-  color: $heading-color;
+  font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
+  color: lighten($heading-color, .9);
 }
 h1,
 .alpha {

@@ -3532,15 +3532,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/explore-new.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/explore-new.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/explore.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3649,6 +3640,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/clothes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62176,
+		"inputAbbreviatedPath": "\/img\/clothes.jpg",
+		"outputAbbreviatedPath": "\/img\/clothes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/dog-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1112,
+		"inputAbbreviatedPath": "\/img\/dog-2.png",
+		"outputAbbreviatedPath": "\/img\/dog-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dog-run.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3737,6 +3750,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/glasses-campaign.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160940,
+		"inputAbbreviatedPath": "\/img\/glasses-campaign.jpg",
+		"outputAbbreviatedPath": "\/img\/glasses-campaign.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/green.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3814,6 +3838,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/house.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 921,
+		"inputAbbreviatedPath": "\/img\/house.png",
+		"outputAbbreviatedPath": "\/img\/house.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lit-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1042,
+		"inputAbbreviatedPath": "\/img\/lit-2.png",
+		"outputAbbreviatedPath": "\/img\/lit-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/lit.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3832,6 +3878,17 @@
 		"initialSize": 18612,
 		"inputAbbreviatedPath": "\/img\/lit@2x.png",
 		"outputAbbreviatedPath": "\/img\/lit@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7210,
+		"inputAbbreviatedPath": "\/img\/logo-1.png",
+		"outputAbbreviatedPath": "\/img\/logo-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3913,6 +3970,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/recycle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260074,
+		"inputAbbreviatedPath": "\/img\/recycle.jpg",
+		"outputAbbreviatedPath": "\/img\/recycle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/recycle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2483,
+		"inputAbbreviatedPath": "\/img\/recycle.png",
+		"outputAbbreviatedPath": "\/img\/recycle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/rocks.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3924,6 +4003,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/servefood.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176600,
+		"inputAbbreviatedPath": "\/img\/servefood.jpg",
+		"outputAbbreviatedPath": "\/img\/servefood.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/shelter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3931,6 +4021,17 @@
 		"initialSize": 115877,
 		"inputAbbreviatedPath": "\/img\/shelter.jpg",
 		"outputAbbreviatedPath": "\/img\/shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95435,
+		"inputAbbreviatedPath": "\/img\/shot.jpg",
+		"outputAbbreviatedPath": "\/img\/shot.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3953,6 +4054,17 @@
 		"initialSize": 4336,
 		"inputAbbreviatedPath": "\/img\/track@2x.png",
 		"outputAbbreviatedPath": "\/img\/track@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tutoring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106979,
+		"inputAbbreviatedPath": "\/img\/tutoring.jpg",
+		"outputAbbreviatedPath": "\/img\/tutoring.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

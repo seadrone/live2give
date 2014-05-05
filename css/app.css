@@ -3333,7 +3333,7 @@ ul.pagination {
   height: 100%;
   width: 100%;
   background: black;
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 99;
   display: none;
   top: 0;
@@ -5491,6 +5491,11 @@ td {
 .btn--gamma {
   font-size: 1.25rem; }
 
+.btn--signup-modal {
+  color: #fff;
+  margin-bottom: 0.5em;
+  width: 55%; }
+
 .cf:after, .media:after, .overview:after, .profile:after {
   content: "";
   display: table;
@@ -5581,7 +5586,7 @@ td {
 .overview__title h2 {
   line-height: 1 !important;
   margin: 0 0 0.25em 0;
-  color: #3f484f; }
+  color: #616e7a; }
 .overview__title h3 {
   line-height: 1.25 !important;
   color: #96a1ab; }
@@ -5594,6 +5599,10 @@ td {
   border-radius: 100%;
   width: 26%;
   margin-right: 0.5em; }
+
+.overview__picture {
+  width: 400px;
+  height: 170px; }
 
 .overview__content {
   line-height: 1.25 !important;
@@ -5625,7 +5634,8 @@ td {
     border-bottom: 0 !important; }
 
 .foo {
-  margin-top: -0.25em; }
+  margin-top: -0.25em;
+  font-size: 24px; }
 
 .circle {
   background-color: #71bb97;
@@ -5638,8 +5648,8 @@ td {
   width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: RooneyWeb-Regular, avenir, helvetica, sans-serif;
-  color: #676d72; }
+  font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
+  color: #696f74; }
 
 h1,
 .alpha,
@@ -5675,8 +5685,7 @@ h5,
   line-height: 1.2; }
 
 h6,
-.zeta,
-.overview ul li span {
+.zeta {
   font-size: 18px;
   font-size: 1.125rem;
   line-height: 1.33333; }
@@ -6043,6 +6052,10 @@ body {
   font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
   color: #96a1ab; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
+  color: #696f74; }
+
 a {
   color: #329cc1; }
   a:hover {
@@ -6110,6 +6123,16 @@ a {
   border-top: 1px solid #d4d4d4;
   background-image: linear-gradient(-180deg, rgba(230, 230, 230, 0.2) 0%, rgba(255, 255, 255, 0.4) 7%); }
 
+.fb {
+  background-color: #3c5a93; }
+
+.tw {
+  background-color: #04b1e9; }
+
+.em {
+  color: #329cc1;
+  border: 1px solid #329cc1; }
+
 .org {
   opacity: .5;
   -webkit-transition-property: opacity;
@@ -6142,6 +6165,9 @@ a {
 .default--image {
   border: 6px solid white !important;
   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.15) !important; }
+
+.img--square {
+  border-radius: 0; }
 
 .expense--legend {
   position: relative;
@@ -6180,3 +6206,6 @@ a {
 
 #Container .mix {
   display: none; }
+
+#modal-signup {
+  border-radius: 3px; }
