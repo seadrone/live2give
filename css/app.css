@@ -2379,7 +2379,7 @@ textarea {
   background-color: white;
   font-family: inherit;
   border: 1px solid #cccccc;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: none;
   color: rgba(0, 0, 0, 0.75);
   display: block;
   font-size: 0.875rem;
@@ -2390,23 +2390,7 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  transition: box-shadow 0.45s, border-color 0.45s ease-in-out; }
-  input[type="text"]:focus,
-  input[type="password"]:focus,
-  input[type="date"]:focus,
-  input[type="datetime"]:focus,
-  input[type="datetime-local"]:focus,
-  input[type="month"]:focus,
-  input[type="week"]:focus,
-  input[type="email"]:focus,
-  input[type="number"]:focus,
-  input[type="search"]:focus,
-  input[type="tel"]:focus,
-  input[type="time"]:focus,
-  input[type="url"]:focus,
-  textarea:focus {
-    box-shadow: 0 0 5px #999999;
-    border-color: #999999; }
+  transition: all 0.15s linear; }
   input[type="text"]:focus,
   input[type="password"]:focus,
   input[type="date"]:focus,
@@ -5449,7 +5433,8 @@ td {
   border-radius: 3px; }
 
 .btn, .btn:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: white !important; }
 .btn:active, .btn:focus {
   outline: none; }
 
@@ -5499,10 +5484,15 @@ td {
   margin-bottom: 0.5em;
   width: 55%; }
 
+.btn--create {
+  background-color: #277b95;
+  color: white !important;
+  border: none !important; }
+
 .btn--filter {
   background-color: #fff;
-  color: #aaaaaa;
-  border-bottom: 1px solid #90cde2; }
+  color: #aaaaaa !important;
+  border-bottom: 1px solid #b7b7b7; }
   .btn--filter:hover {
     color: #329cc1;
     -webkit-transition-property: color;
@@ -5517,7 +5507,7 @@ td {
 .filter.active {
   background-color: #329cc1;
   border-bottom: 1px solid #90cde2;
-  color: #fff; }
+  color: white !important; }
 
 .cf:after, .media:after, .overview:after, .profile:after {
   content: "";
@@ -5661,10 +5651,10 @@ td {
   font-size: 24px; }
 
 .cat-camp {
-  border-top: 10px solid #d4cd61; }
+  border-top: 5px solid #d4cd61; }
 
 .cat-org {
-  border-top: 10px solid #ff7596; }
+  border-top: 5px solid #ff7596; }
 
 .circle {
   background-color: #71bb97;
@@ -5829,27 +5819,50 @@ h6,
   margin-left: 6em !important; }
 
 .push-half {
-  margin: 2em !important; }
+  margin: 4em !important; }
 
 .push-half--top {
-  margin-top: 2em !important; }
+  margin-top: 4em !important; }
 
 .push-half--right {
-  margin-right: 2em !important; }
+  margin-right: 4em !important; }
 
 .push-half--bottom {
-  margin-bottom: 2em !important; }
+  margin-bottom: 4em !important; }
 
 .push-half--left {
-  margin-left: 2em !important; }
+  margin-left: 4em !important; }
 
 .push-half--ends {
-  margin-top: 2em !important;
-  margin-bottom: 2em !important; }
+  margin-top: 4em !important;
+  margin-bottom: 4em !important; }
 
 .push-half--sides {
-  margin-right: 2em !important;
-  margin-left: 2em !important; }
+  margin-right: 4em !important;
+  margin-left: 4em !important; }
+
+.push-tiny {
+  margin: 1em !important; }
+
+.push-tiny--top {
+  margin-top: 1em !important; }
+
+.push-tiny--right {
+  margin-right: 1em !important; }
+
+.push-tiny--bottom {
+  margin-bottom: 1em !important; }
+
+.push-tiny--left {
+  margin-left: 1em !important; }
+
+.push-tiny--ends {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important; }
+
+.push-tiny--sides {
+  margin-right: 1em !important;
+  margin-left: 1em !important; }
 
 .flush {
   margin: 0 !important; }
@@ -5984,6 +5997,9 @@ h6,
 .muted--light, .update h3 {
   opacity: 0.8 !important;
   filter: alpha(opacity=50) !important; }
+
+.louder {
+  color: #5d5d5d !important; }
 
 .proceed {
   text-align: right !important; }
@@ -6122,6 +6138,8 @@ a {
   border-radius: 2px;
   background: #F9650A;
   background-image: linear-gradient(-179deg, rgba(255, 255, 255, 0.11) 12%, rgba(180, 180, 180, 0.12) 46%, rgba(127, 127, 127, 0.13) 100%); }
+  .btn--cta:hover {
+    background-image: linear-gradient(-179deg, rgba(255, 255, 255, 0.1) 0%, rgba(108, 108, 108, 0.35) 100%); }
 
 .testimonial {
   background: #f7f7f7;
@@ -6154,8 +6172,10 @@ a {
   background-color: #04b1e9; }
 
 .em {
-  color: #329cc1;
+  color: #277b95 !important;
   border: 1px solid #329cc1; }
+  .em:hover {
+    background-color: #277b95; }
 
 .org {
   opacity: .7;
@@ -6233,3 +6253,13 @@ a {
 
 #modal-signup {
   border-radius: 3px; }
+
+.font-serif {
+  font-family: RooneyWeb-Light, serif; }
+
+.org-dash {
+  background-color: #f8f8f8; }
+
+.line-chart {
+  width: 100%;
+  height: 100%; }

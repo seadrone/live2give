@@ -63,6 +63,9 @@ a {
   border-radius: 2px;
   background: #F9650A;
   background-image: linear-gradient(-179deg, rgba(255,255,255,0.11) 12%, rgba(180,180,180,0.12) 46%, rgba(127,127,127,0.13) 100%);
+  &:hover {
+      background-image: linear-gradient(-179deg, rgba(255,255,255,0.10) 0%, rgba(108,108,108,0.35) 100%);
+  }
 }
 
 .testimonial {
@@ -98,7 +101,14 @@ a {
 
 .fb { background-color: #3c5a93; }
 .tw { background-color: #04b1e9; }
-.em { color: $link-color; border: 1px solid $link-color; }
+.em { 
+  color: $color-blue!important; 
+  border: 1px solid $link-color; 
+  &:hover {
+    // color: $color-blue!important;
+    background-color: $color-blue;
+  }
+}
 
 .org {
   opacity: .7;
@@ -197,4 +207,16 @@ a {
   border-radius: $brand-round;
 }
 
+.font-serif {
+  font-family: RooneyWeb-Light, serif;
+}
+
+.org-dash {
+  background-color: #f8f8f8;
+}
+
+.line-chart {
+  width: 100%;
+  height: 100%;
+}
 
