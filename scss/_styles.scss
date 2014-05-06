@@ -101,7 +101,7 @@ a {
 .em { color: $link-color; border: 1px solid $link-color; }
 
 .org {
-  opacity: .5;
+  opacity: .7;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
@@ -192,7 +192,6 @@ a {
 #Container .mix{
   display: none;
 }
-
 
 #modal-signup {
   border-radius: $brand-round;

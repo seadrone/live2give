@@ -3618,6 +3618,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/check-shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3047,
+		"inputAbbreviatedPath": "\/img\/check-shadow.png",
+		"outputAbbreviatedPath": "\/img\/check-shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/check.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3889,6 +3900,50 @@
 		"initialSize": 7210,
 		"inputAbbreviatedPath": "\/img\/logo-1.png",
 		"outputAbbreviatedPath": "\/img\/logo-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3510,
+		"inputAbbreviatedPath": "\/img\/logo-2.png",
+		"outputAbbreviatedPath": "\/img\/logo-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7262,
+		"inputAbbreviatedPath": "\/img\/logo-3.png",
+		"outputAbbreviatedPath": "\/img\/logo-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6214,
+		"inputAbbreviatedPath": "\/img\/logo-5.png",
+		"outputAbbreviatedPath": "\/img\/logo-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6336,
+		"inputAbbreviatedPath": "\/img\/logo-6.png",
+		"outputAbbreviatedPath": "\/img\/logo-6.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -41,7 +41,7 @@ body {
 
 body {
   background: white;
-  color: #96a1ab;
+  color: #aaaaaa;
   padding: 0;
   margin: 0;
   font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
@@ -4664,7 +4664,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #96a1ab;
+  color: #aaaaaa;
   border-bottom: 1px dotted #dddddd;
   cursor: help; }
 
@@ -5501,7 +5501,7 @@ td {
 
 .btn--filter {
   background-color: #fff;
-  color: #96a1ab;
+  color: #aaaaaa;
   border-bottom: 1px solid #90cde2; }
   .btn--filter:hover {
     color: #329cc1;
@@ -5595,7 +5595,7 @@ td {
       margin-right: 15%;
       line-height: 1.25; }
       .overview ul li span {
-        color: #56616b; }
+        color: #6a6a6a; }
 
 .overview__thumb {
   position: relative; }
@@ -5612,7 +5612,7 @@ td {
   color: #329cc1; }
 .overview__title h3 {
   line-height: 1.25 !important;
-  color: #96a1ab; }
+  color: #aaaaaa; }
 
 .overview__body {
   padding: 0.75em 0.75em 0 0.75em; }
@@ -5634,7 +5634,7 @@ td {
 
 .overview__type {
   text-transform: uppercase;
-  color: #96a1ab;
+  color: #aaaaaa;
   margin: 0; }
 
 .overview__content--org {
@@ -6051,7 +6051,7 @@ h6,
   margin: 0;
   padding: 0;
   line-height: 1;
-  color: #616e7a; }
+  color: #777777; }
 
 .progress {
   height: 20px;
@@ -6078,7 +6078,7 @@ h6,
 
 body {
   font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif;
-  color: #96a1ab; }
+  color: #aaaaaa; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: ProximaNovaSoft-Semibold, avenir, helvetica, sans-serif;
@@ -6158,7 +6158,7 @@ a {
   border: 1px solid #329cc1; }
 
 .org {
-  opacity: .5;
+  opacity: .7;
   -webkit-transition-property: opacity;
   -moz-transition-property: opacity;
   -o-transition-property: opacity;
