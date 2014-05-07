@@ -42,6 +42,9 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
+
+$body-font-color: #909090;
+
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -305,6 +308,8 @@ $xxlarge-range: (120.063em, 99999999em);
 // We use this to set the background color for the breadcrumb container.
 // $crumb-bg: scale-color($secondary-color, $lightness: 55%);
 
+$crumb-bg: #fff;
+
 // We use these to set the padding around the breadcrumbs.
 // $crumb-padding: rem-calc(9 14 9);
 // $crumb-side-padding: rem-calc(12);
@@ -315,6 +320,12 @@ $xxlarge-range: (120.063em, 99999999em);
 // $crumb-border-style: solid;
 // $crumb-border-color: scale-color($crumb-bg, $lightness: $crumb-function-factor);
 // $crumb-radius: $global-radius;
+
+$crumb-border-size: 0;
+$crumb-border-style: none;
+$crumb-border-color: none;
+
+
 
 // We use these to set various text styles for breadcrumbs.
 // $crumb-font-size: rem-calc(11);
@@ -327,6 +338,12 @@ $xxlarge-range: (120.063em, 99999999em);
 // We use these to control the slash between breadcrumbs
 // $crumb-slash-color: #aaa;
 // $crumb-slash: "/";
+
+$crumb-font-size: rem-calc(14);
+$crumb-font-color-current: darken($body-font-color, 5%);
+$crumb-font-color-unavailable: #999;
+
+
 
 //
 // BUTTONS
@@ -1136,6 +1153,10 @@ $reveal-overlay-bg: rgba(#000, .75);
 
 // $tabs-vertical-navigation-margin-bottom: 1.25rem;
 
+
+
+
+
 //
 // THUMBNAILS
 //
@@ -1194,6 +1215,8 @@ $reveal-overlay-bg: rgba(#000, .75);
 // $topbar-height: 45px;
 // $topbar-margin-bottom: 0;
 
+$topbar-height: 55px;
+
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: normal;
 // $topbar-title-font-size: rem-calc(17);
@@ -1206,6 +1229,11 @@ $reveal-overlay-bg: rgba(#000, .75);
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.4;
+
+$topbar-dropdown-link-color: black;
+$topbar-dropdown-toggle-color: black;
+
+
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;

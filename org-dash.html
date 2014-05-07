@@ -63,14 +63,42 @@
 
   <div class="row">
     <div class="column large-9">
-      <h2>Funds Raised</h2>
-      <canvas id="fundsRaised" width="700" height="300"class="line-chart"></canvas>
-      <h2>Page Views</h2>
-      <canvas id="pageViews" width="700" height="300"class="line-chart"></canvas>
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#tab-fundraising">Fundraising</a></dd>
+        <dd><a href="#tab-campaigns">Campaigns</a></dd>
+        <dd><a href="#tab-donors">Donors</a></dd>
+      </dl>
+
+      <div class="tabs-content">
+        <div class="content active no-bg" id="tab-fundraising">
+          <h2>Funds Raised</h2>
+          <canvas id="fundsRaised" width="700" height="300"class="line-chart"></canvas>
+
+          <h2>Page Views</h2>
+          <canvas id="pageViews" width="700" height="300"class="line-chart"></canvas>
+        </div>
+
+        <div class="content no-bg" id="tab-campaigns">
+          <h2>Your campaigns</h2>
+         
+        </div>
+
+        <div class="content no-bg" id="tab-donors">
+          <h2>Your awesome donors</h2>
+          
+        </div>
+
+
+
+      </div>
+
+
     </div>
+
+
     <div class="column large-3 text--center push--top">
-      <a href="#" class="btn btn--create push-half--bottom">Start a new campaign</a><br>
-      <a href="#" class="btn btn--create">Create an update</a><br>
+      <a href="#" class="btn btn--cta push-half--bottom">Start a new campaign</a><br>
+      <a href="#" class="btn btn--cta">Create an update</a><br>
     </div>
 
   </div>

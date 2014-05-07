@@ -3717,6 +3717,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/explore-shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3177,
+		"inputAbbreviatedPath": "\/img\/explore-shadow.png",
+		"outputAbbreviatedPath": "\/img\/explore-shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/explore.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4087,6 +4098,17 @@
 		"initialSize": 95435,
 		"inputAbbreviatedPath": "\/img\/shot.jpg",
 		"outputAbbreviatedPath": "\/img\/shot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/track-shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2897,
+		"inputAbbreviatedPath": "\/img\/track-shadow.png",
+		"outputAbbreviatedPath": "\/img\/track-shadow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
