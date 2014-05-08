@@ -267,6 +267,27 @@ cite {
   color: #fff;
 }
 
+.top-bar .toggle-topbar.menu-icon a {
+  color: #329dbd;
+  font-family: ProximaNovaSoft-Regular, avenir, helvetica, sans-serif!important;
+  @extend .smallprint;
+  vertical-align: middle;
+  line-height: 3;
+  text-decoration: none;
+  &:hover {
+    color: darken(#329dbd, 10%);
+  }
+}
+
+.block span {
+  text-shadow: none;
+  a {
+    color: darken($link-color, 9%);
+  }
+}
+
+
+
 
 
 

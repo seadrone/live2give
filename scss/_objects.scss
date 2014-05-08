@@ -435,6 +435,8 @@ h6,
 .push-half--ends    { margin-top:   4*$half-spacing-unit!important; margin-bottom:4*$half-spacing-unit!important; }
 .push-half--sides   { margin-right: 4*$half-spacing-unit!important; margin-left:  4*$half-spacing-unit!important; }
 
+.push-small--bottom { margin-bottom: $padding*2; }
+
 .push-tiny          { margin:       $half-spacing-unit!important; }
 .push-tiny--top     { margin-top:   $half-spacing-unit!important; }
 .push-tiny--right   { margin-right: $half-spacing-unit!important; }
@@ -508,7 +510,11 @@ h6,
 }
 
 .louder {
-  color: darken($body-font-color, 30%)!important;
+  color: darken($body-font-color, 20%)!important;
+}
+
+.louder--link {
+  color: darken($link-color, 10%);
 }
 
 .proceed{

@@ -3871,17 +3871,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/images\/polygon-bg_03.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/img\/images\/polygon-bg_03.png",
-		"outputAbbreviatedPath": "\/img\/images\/polygon-bg_03.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/lit-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4010,6 +3999,17 @@
 		"initialSize": 59874,
 		"inputAbbreviatedPath": "\/img\/orgs@2x.png",
 		"outputAbbreviatedPath": "\/img\/orgs@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/polygon-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/polygon-bg.png",
+		"outputAbbreviatedPath": "\/img\/polygon-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

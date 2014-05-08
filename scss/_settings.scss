@@ -711,6 +711,8 @@ $input-include-glowing-effect: false;
 // $tabbar-header-line-height: $tabbar-height;
 // $tabbar-header-margin: 0;
 
+
+
 // Off Canvas Menu Variables
 // $off-canvas-width: rem-calc(250);
 // $off-canvas-bg: #333;
@@ -725,12 +727,15 @@ $input-include-glowing-effect: false;
 // $off-canvas-label-border-bottom: none;
 // $off-canvas-label-margin:0;
 // $off-canvas-link-padding: rem-calc(10, 15);
-// $off-canvas-link-color: rgba(#fff, 0.7);
+$off-canvas-link-color: $link-color!important;
 // $off-canvas-link-border-bottom: 1px solid scale-color($off-canvas-bg, $lightness: -25%);
 
 // Off Canvas Menu Icon Variables
 // $tabbar-menu-icon-color: #fff;
 // $tabbar-menu-icon-hover: scale-color($tabbar-menu-icon-color, $lightness: -30%);
+
+// $tabbar-menu-icon-color: #277b95;
+
 
 // $tabbar-menu-icon-text-indent: rem-calc(35);
 // $tabbar-menu-icon-width: $tabbar-height;
