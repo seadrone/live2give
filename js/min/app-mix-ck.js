@@ -1,0 +1,1 @@
+$(document).foundation(),$("#Container").mixItUp({animation:{enable:!1},callbacks:{onMixLoad:function(){$(this).mixItUp("setOptions",{animation:{enable:!0}})}}});

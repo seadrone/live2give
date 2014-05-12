@@ -1,0 +1,358 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Find a Cause, Change the World | Live2Give</title>
+  <link href="//fnt.webink.com/wfs/webink.css/?project=647384A1-1F26-489E-9C3B-A95106D58DC6&fonts=D6153B5A-AE59-CCAA-0643-BECDE4CEB3D0:f=ClassicRound-Light,741523D5-28BB-38D7-153A-061C4EDD1B98:f=CreteRounded-Regular,E69FC5A6-C37C-7580-6AF2-3CA251383E10:f=RooneyWeb-Medium,46DD6E2F-A60A-A730-1D70-82497A735BC5:f=ProximaNovaA-Semibold,E10DC5A5-6E69-88A0-32FF-0256CBA64855:f=ProximaNovaSoft-Regular,42E2C303-BDBC-A6A9-D6C4-7A2D35A4F99F:f=ClassicRound-Regular,58DEFEBD-4A55-477B-3C13-525C6AEBDD7A:f=ProximaNova-Regular,2C42FFC5-7075-E54C-B9B0-A6CDF7C4C946:f=RooneyWeb-Light,BC220179-CE2C-B2EB-C1AA-00AC372DFA8A:f=ProximaNovaSoft-Semibold,0D47B8E9-3C6E-CE3D-89C8-57E788336980:f=RooneyWeb-Regular,7F15F306-2FC1-17E6-F8F3-ECC92BC5E5D4:f=Effra-Regular,6EE89022-E6CF-348D-2980-778764FA1EA3:f=Effra-Light,D06C8DF4-F844-F207-CBCC-4A0DF291F8D3:f=ProximaNovaSoft-Medium,C88A28DF-0112-63D9-25D2-A4EA08DAF75B:f=ProximaNova-Light,2387602E-F410-98CA-6CC7-45AD958A1121:f=ProximaNovaA-Light,D777B240-5907-CCBD-13E4-6249C0D9859E:f=ProximaNovaA-Regular" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="css/app.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body class="explore">
+
+  <div class="nav-main">
+    <nav class="row top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img src="../img/logo-6.png" alt=""></a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="bump-right"><a href="#" class="nav-about">About</a></li>
+          <li class="bump-right"><a href="explore.html" class="nav-explore">Explore</a></li>        
+          <li class="bump-right nav-login"><a href="#" class="nav-login">Log In</a></li>
+          <li class="bump-right nav-signup"><a href="#" class="nav-signup" data-reveal-id="modal-signup">Sign Up</a></li>
+        </ul>
+
+        <div id="modal-signup" class="reveal-modal small text--center" data-reveal>
+          <h2 class="epsilon">Sign up for Live2Give</h2>
+          <a href="#" class="btn radius btn--signup-modal fb">Sign up with Facebook <span data-dropdown="drop"></span></a><br>
+          <a href="#" class="btn radius btn--signup-modal tw">Sign up with Twitter <span data-dropdown="drop"></span></a><br>
+          <p>We never post anything without your permission.</p>
+          <hr>
+          <a href="#" data-reveal-id="modal-create" class="btn radius btn--signup-modal em">Sign up with email <span data-dropdown="drop"></span></a>
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+        <div id="modal-create" class="reveal-modal small text--center" data-reveal>
+          <h2 class="epsilon">Create a Live2Give Account</h2>
+
+          <input type="text" placeholder="First name" />
+          <input type="text" placeholder="Last name">
+          <input type="text" placeholder="Desired username">
+          <input type="text" placeholder="Password">
+          <input type="text" placeholder="Confirm password">
+          <p class="louder squish">I plan to use this account to:</p>
+          <select class="muted">
+            <option value="donate">Donate</option>
+            <option value="raise-money">Raise Money</option>
+          </select>
+          <a href="#" class="btn radius btn--create">Create my account<span data-dropdown="drop"></span></a>
+
+          <a class="close-reveal-modal">&#215;</a>
+        </div>
+
+      </section>
+    </nav>
+  </div>
+
+
+  <!-- FILTERS -->
+  <div class="highlight--no-wrap divider--muted">
+    <div class="row">
+      <div class="columns large-12 marg-top">
+        <h1 class="gamma highlight squish font-serif-bold">Explore campaigns and organizations</h1>
+        <blockquote>No act of kindness, no matter how small, is ever wasted. <cite class="inline">Aesop</cite></blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="columns large-12 marg-top">
+      Sort by: 
+      <div class="btn filter btn--filter btn--medium" data-filter="all">All</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-animal">Animal Welfare</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-health">Health</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-environment">Environment</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-homeless">Homelessness</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-education">Education</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-campaign">Campaigns</div>
+      <div class="btn filter btn--filter btn--medium" data-filter=".category-org">Organizations</div>
+    </div>
+  </div>
+
+
+  <!-- CONTENT -->
+  <div class="row explore-row" id="Container">
+
+
+    <div class="mix category-health category-campaign columns small-12 medium-6 large-4" data-myorder="1">
+      <div class="overview cat-camp">
+        <div class="overview__thumb">
+         <img src="../img/add-favorites.png" alt="">
+       </div>
+       <img src="../img/glasses-campaign.jpg" alt="Credit: Eden, Janine and Jim via flickr" width="400" height="160" class="overview__picture">
+       <div class="overview__body">  
+        <!-- <img src="../img/add-favorites.png" alt=""> -->
+        <h3 class="overview__type">Campaign</h3> 
+        <img src="../img/eye.png" alt="" class="overview__img">
+        <div class="overview__title">
+          <h2><a href="campaign-detail.html">Glasses for kids</a></h2>
+          <h3>Seeing Clearly | Health</h3>
+        </div>
+        <p class="overview__content">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt esse Duis consectetur nisi.</p>
+        <div class="progress">
+          <span style="width: 67%">67%</span>
+        </div>
+        <ul>
+          <li><span class="delta">$1,200</span><br> raised</li>
+          <li><span class="delta">9</span><br> days left</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mix category-animal category-campaign columns small-12 medium-6 large-4" data-myorder="1">
+    <div class="overview cat-camp">
+      <div class="overview__thumb">
+       <img src="../img/add-favorites.png" alt="">
+     </div>
+     <img src="../img/dog-run.jpg" alt="rcannon100 via flickr" width="400" height="160" class="overview__picture">
+     <div class="overview__body">
+      <h3 class="overview__type">Campaign</h3>   
+      <img src="../img/dog-2.png" alt="" class="overview__img img--square">
+      <div class="overview__title">
+        <h2><a href="campaign-detail.html">2014 Dog Trot</a></h2>
+        <h3>Kirkland Dog Rescue | Animal Welfare</h3>
+      </div>          
+      <p class="overview__content">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt esse Duis consectetur nisi.</p>
+      <div class="progress">
+        <span style="width: 48%">48%</span>
+      </div>
+      <ul>
+        <li><span class="delta">$1,200</span><br> raised</li>
+        <li><span class="delta">9</span><br> days left</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="mix category-health category-org columns small-12 medium-6 large-4" data-myorder="2">
+  <div class="overview cat-org">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/shot.jpg" alt="Credit: US Army Corp of Engineers Europe District via flickr" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Organization</h3>   
+<!--           <img src="../img/eye.png" alt="" class="overview__img">
+-->          <div class="overview__title">
+<h2><a href="org-detail.html">Greenview Public Health Center</a></h2>
+<h3>Greenview, ID | Health</h3>
+</div>
+<p class="overview__content overview__content--org">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt  
+  esse Duis consectetur nisi.</p>
+  <ul class="overview__stats--org">
+   <li class="split__title">Donors <span class="float--right foo">14</span></li>
+
+   <li class="split__title">Active Campaigns <span class="float--right foo">2</span></li>
+
+   <li class="split__title">Expense ratio <span class="float--right foo">5%</span></li>
+
+ </ul>
+</div>
+</div>
+</div>
+
+<div class="mix category-homeless category-campaign columns small-12 medium-6 large-4" data-myorder="1">
+  <div class="overview cat-camp">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/clothes.jpg" alt="credit: uemura via flickr" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Campaign</h3>   
+    <img src="../img/house.png" alt="" class="overview__img img--square">
+    <div class="overview__title">
+      <h2><a href="campaign-detail.html">Clothing Drive</a></h2>
+      <h3>Glenview Lifespring | Homelessness</h3>
+    </div>
+    <p class="overview__content">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt esse Duis consectetur nisi.</p>
+    <div class="progress">
+      <span style="width: 37%">37%</span>
+    </div>
+    <ul>            
+      <li><span class="delta">$1,200</span><br> raised</li>
+      <li><span class="delta">9</span><br> days left</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+<div class="mix category-animal category-org columns small-12 medium-6 large-4" data-myorder="2">
+  <div class="overview cat-org">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/shelter.jpg" alt="" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Organization</h3>   
+    <div class="overview__title">
+      <h2><a href="org-detail.html">Kirkland Dog Shelter</a></h2>
+      <h3>Kirkland, WA | Animal Welfare</h3>
+    </div>
+    <p class="overview__content overview__content--org">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt  
+      esse Duis consectetur nisi.</p>
+      <ul class="overview__stats--org">
+       <li class="split__title">Donors <span class="float--right foo">14</span></li>
+       <li class="split__title">Active Campaigns <span class="float--right foo">1</span></li>
+       <li class="split__title">Expense ratio <span class="float--right foo">9%</span></li>
+     </ul>
+   </div>
+ </div>
+</div>
+
+
+<div class="mix category-homeless category-org columns small-12 medium-6 large-4" data-myorder="2">
+  <div class="overview cat-org">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/servefood.jpg" alt="Credit: Calgary Reviews via flickr" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Organization</h3>   
+<!--           <img src="../img/eye.png" alt="" class="overview__img">
+-->          <div class="overview__title">
+<h2><a href="org-detail.html">Glenview Lifespring</a></h2>
+<h3>Glenview, IL | Homelessness</h3>
+</div>
+<p class="overview__content overview__content--org">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt  
+  esse Duis consectetur nisi.</p>
+  <ul class="overview__stats--org">
+   <li class="split__title">Donors <span class="float--right foo">14</span></li>
+
+   <li class="split__title">Active Campaigns <span class="float--right foo">2</span></li>
+
+   <li class="split__title">Expense ratio <span class="float--right foo">5%</span></li>
+
+ </ul>
+</div>
+</div>
+</div>
+
+
+<div class="mix category-education category-org columns small-12 medium-6 large-4" data-myorder="1">
+  <div class="overview cat-org">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/tutoring.jpg" alt="Credit: Tulane Public Relations via flickr" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Organization</h3>   
+<!--           <img src="../img/eye.png" alt="" class="overview__img">
+-->          <div class="overview__title">
+<h2><a href="org-detail.html">Springfield Literacy Council</a></h2>
+<h3>Springfield, MA | Education</h3>
+</div>
+<p class="overview__content overview__content--org">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt  
+  esse Duis consectetur nisi.</p>
+  <ul class="overview__stats--org">
+   <li class="split__title">Donors <span class="float--right foo">14</span></li>
+
+   <li class="split__title">Active Campaigns <span class="float--right foo">2</span></li>
+
+   <li class="split__title">Expense ratio <span class="float--right foo">5%</span></li>
+
+ </ul>
+</div>
+</div>
+</div>
+
+
+<div class="mix category-environment category-campaign columns small-12 medium-6 large-4 end" data-myorder="1">
+  <div class="overview cat-camp">
+    <div class="overview__thumb">
+     <img src="../img/add-favorites.png" alt="">
+   </div>
+   <img src="../img/recycle.jpg" alt="Credit: MarylandGovPics via flickr" class="overview__picture">
+   <div class="overview__body">
+    <h3 class="overview__type">Campaign</h3>   
+    <img src="../img/recycle.png" alt="" class="overview__img">
+    <div class="overview__title">
+      <h2><a href="campaign-detail.html">Community Recycle Day</a></h2>
+      <h3>King County Recycling | Environment</h3>
+    </div>          
+    <p class="overview__content">Lorem ipsum Mollit ullamco Duis ut nisi pariatur laboris minim in sunt esse Duis consectetur nisi.</p>
+    <div class="progress">
+      <span style="width: 83%">83%</span>
+    </div>
+    <ul>
+      <li><span class="delta">$1,200</span><br> raised</li>
+      <li><span class="delta">9</span><br> days left</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+<div class="footer--out">
+  <div class="row soft--big--ends footer">
+    <div class="columns medium-offset-4 medium-2 small-6">
+      <h4>Live2Give</h4>
+      <p>1234 Main St.<br>Seattle, WA 98001</p>
+    </div>
+
+    <div class="columns medium-2 small-6">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="columns medium-2 small-6">
+      <h4>Fundraisers</h4>
+      <ul>
+        <li><a href="#">Learn More</a></li>
+        <li><a href="#">Join Now</a></li>
+      </ul>
+    </div>
+
+    <div class="columns medium-2 small-6">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+
+
+  </div>
+</div>
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+// <script src="js/jquery.mixitup.js"></script>
+<script src="js/app-mix.js"></script>
+</body>
+</html>
